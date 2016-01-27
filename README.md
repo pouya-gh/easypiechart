@@ -1,6 +1,6 @@
 # Easypiechart
 
-TODO: Write a gem description
+This gem adds [easypiechart(v2.1.6)](https://github.com/rendro/easy-pie-chart) JS to your rails project.
 
 ## Installation
 
@@ -18,13 +18,33 @@ Or install it yourself as:
 
     $ gem install easypiechart
 
-## Usage
+Then add the following line to your **application.js** file:
 
-TODO: Write usage instructions here
+```javascript
+//= require easypiechart
+```
+
+Or this one:
+
+```javascript
+//= require jquery.easypiechart
+```
+
+Or this:
+
+```javascript
+//= require angular.easypiechart
+```
+
+For all of above use this:
+
+```javascript
+//= require easypiechart_main
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/easypiechart/fork )
+1. Fork it ( https://github.com/psparabara/easypiechart/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
